@@ -1,0 +1,16 @@
+{
+  "name": "sparring",
+  "owner": {
+    "name": "Potatoplz"
+  },
+  "metadata": {
+    "description": "sparring: Codex/Claude Worker→Reviewer 교차 검토 루프 스킬"
+  },
+  "plugins": [
+    {
+      "name": "sparring",
+      "source": "./plugins/sparring",
+      "description": "Codex/Claude Worker→Reviewer 교차 검토 루프를 Claude Code에서 실행하는 스킬"
+    }
+  ]
+}

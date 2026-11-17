@@ -1,0 +1,706 @@
+{
+ "dur_s": {
+  "ko": "{s}초",
+  "en": "{s}s"
+ },
+ "dur_ms": {
+  "ko": "{m}분 {s}초",
+  "en": "{m}m {s}s"
+ },
+ "dur_hm": {
+  "ko": "{h}시간 {m}분",
+  "en": "{h}h {m}m"
+ },
+ "u_tokens": {
+  "ko": "토큰 {n}",
+  "en": "tokens {n}"
+ },
+ "u_cache": {
+  "ko": " (캐시 읽기 {n})",
+  "en": " (cache read {n})"
+ },
+ "u_output": {
+  "ko": "출력 {n}",
+  "en": "output {n}"
+ },
+ "u_context": {
+  "ko": "컨텍스트 {n}",
+  "en": "context {n}"
+ },
+ "u_session_cost": {
+  "ko": "세션 누적 ${c}",
+  "en": "session total ${c}"
+ },
+ "lbl_title": {
+  "ko": "제목",
+  "en": "title"
+ },
+ "lbl_command": {
+  "ko": "명령",
+  "en": "command"
+ },
+ "lbl_repo": {
+  "ko": "저장소",
+  "en": "repo"
+ },
+ "lbl_workdir": {
+  "ko": "작업",
+  "en": "workdir"
+ },
+ "lbl_settings": {
+  "ko": "설정",
+  "en": "settings"
+ },
+ "lbl_test": {
+  "ko": "검증",
+  "en": "test"
+ },
+ "lbl_before": {
+  "ko": "재개 전",
+  "en": "before"
+ },
+ "lbl_note": {
+  "ko": "판단",
+  "en": "decision"
+ },
+ "lbl_records": {
+  "ko": "기록",
+  "en": "records"
+ },
+ "lbl_report": {
+  "ko": "보고",
+  "en": "report"
+ },
+ "lbl_changed": {
+  "ko": "변경",
+  "en": "changed"
+ },
+ "lbl_rejected": {
+  "ko": "반려",
+  "en": "rejected"
+ },
+ "lbl_missed": {
+  "ko": "찾음",
+  "en": "found"
+ },
+ "lbl_concerns": {
+  "ko": "불안",
+  "en": "concerns"
+ },
+ "lbl_log": {
+  "ko": "로그",
+  "en": "log"
+ },
+ "lbl_prior": {
+  "ko": "이전 지적",
+  "en": "prior"
+ },
+ "lbl_issues": {
+  "ko": "지적",
+  "en": "issues"
+ },
+ "lbl_attempts": {
+  "ko": "검증 시도",
+  "en": "checks"
+ },
+ "lbl_final": {
+  "ko": "최종 리뷰",
+  "en": "last review"
+ },
+ "lbl_flow": {
+  "ko": "판정 흐름",
+  "en": "verdicts"
+ },
+ "lbl_took": {
+  "ko": "소요",
+  "en": "took"
+ },
+ "lbl_resume": {
+  "ko": "재개",
+  "en": "resume"
+ },
+ "lbl_retry": {
+  "ko": "재시도",
+  "en": "retry"
+ },
+ "lbl_branch": {
+  "ko": "브랜치",
+  "en": "branch"
+ },
+ "lbl_merge": {
+  "ko": "병합",
+  "en": "merge"
+ },
+ "lbl_cleanup": {
+  "ko": "정리",
+  "en": "clean up"
+ },
+ "task_text": {
+  "ko": "작업 내용",
+  "en": "task"
+ },
+ "start_new": {
+  "ko": "시작",
+  "en": "start"
+ },
+ "start_resume": {
+  "ko": "재개",
+  "en": "resume"
+ },
+ "repo_same": {
+  "ko": "  (실행 위치 동일)",
+  "en": "  (run from here)"
+ },
+ "repo_cwd": {
+  "ko": "  (실행 위치 {cwd})",
+  "en": "  (run from {cwd})"
+ },
+ "work_branch": {
+  "ko": "  (브랜치 {branch})",
+  "en": "  (branch {branch})"
+ },
+ "opt_roles": {
+  "ko": "{worker} 작업 · {reviewer} 리뷰",
+  "en": "{worker} works · {reviewer} reviews"
+ },
+ "opt_rounds": {
+  "ko": "{n}라운드",
+  "en": "{n} rounds"
+ },
+ "opt_turn": {
+  "ko": "턴 {d}",
+  "en": "turn limit {d}"
+ },
+ "opt_fresh": {
+  "ko": "리뷰어 매번 새 세션",
+  "en": "fresh reviewer each round"
+ },
+ "opt_continue": {
+  "ko": "이어가기 {id}",
+  "en": "continues {id}"
+ },
+ "none": {
+  "ko": "없음",
+  "en": "none"
+ },
+ "before_fmt": {
+  "ko": "{status} (단계 {step}, round {round}/{rounds})",
+  "en": "{status} (step {step}, round {round}/{rounds})"
+ },
+ "task_more": {
+  "ko": "  … 외 {n}줄 (TASK.md)",
+  "en": "  … {n} more lines (TASK.md)"
+ },
+ "ph_task": {
+  "ko": "<작업 내용>",
+  "en": "<task>"
+ },
+ "ph_title": {
+  "ko": "<제목>",
+  "en": "<title>"
+ },
+ "phase_work": {
+  "ko": "작업",
+  "en": "work"
+ },
+ "phase_revise": {
+  "ko": "수정",
+  "en": "revise"
+ },
+ "phase_review": {
+  "ko": "리뷰",
+  "en": "review"
+ },
+ "round_end": {
+  "ko": "종료",
+  "en": "end"
+ },
+ "agent_start": {
+  "ko": "▶ {agent} {what}",
+  "en": "▶ {agent} {what}"
+ },
+ "resumed": {
+  "ko": " (세션 이어가기)",
+  "en": " (resumed session)"
+ },
+ "agent_done": {
+  "ko": "✓ {d}",
+  "en": "✓ {d}"
+ },
+ "tick_test": {
+  "ko": "  … 검증 {d} 경과",
+  "en": "  … test {d} elapsed"
+ },
+ "tick_elapsed": {
+  "ko": "{d} 경과",
+  "en": "{d} elapsed"
+ },
+ "tick_changed": {
+  "ko": "변경 파일 {n}개",
+  "en": "{n} files changed"
+ },
+ "tick_cmds": {
+  "ko": "명령 {n}회",
+  "en": "{n} commands"
+ },
+ "tick_edits": {
+  "ko": "수정 {n}회",
+  "en": "{n} edits"
+ },
+ "tick_error": {
+  "ko": "  … (진행 표시 오류: {error})",
+  "en": "  … (progress error: {error})"
+ },
+ "act_cmd": {
+  "ko": "명령: {text}",
+  "en": "command: {text}"
+ },
+ "act_edit": {
+  "ko": "수정: {text}",
+  "en": "edit: {text}"
+ },
+ "act_msg": {
+  "ko": "메시지: {text}",
+  "en": "message: {text}"
+ },
+ "context_warn": {
+  "ko": "⚠ 컨텍스트 {n}: 모델을 부를 때마다 이만큼 다시 읽어 한도 소모가 큽니다. 다음 단계는 새 스파링(--continue 없이)으로 끊는 것을 고려하세요.",
+  "en": "⚠ context {n}: every model call re-reads this much, which uses up the limit fast. Consider running the next step as a new sparring (without --continue)."
+ },
+ "session_retry": {
+  "ko": "⚠ 세션 이어가기 실패, 새 세션으로 다시 실행합니다: {error}",
+  "en": "⚠ could not resume the session, running in a new one: {error}"
+ },
+ "changed_fmt": {
+  "ko": "{n}개: {files}",
+  "en": "{n}: {files}"
+ },
+ "more_files": {
+  "ko": " 외 {n}개",
+  "en": " and {n} more"
+ },
+ "count": {
+  "ko": "{n}건",
+  "en": "{n}"
+ },
+ "missed_fmt": {
+  "ko": "{n}건 (Worker가 찾음)",
+  "en": "{n} (found by the worker)"
+ },
+ "diff_full": {
+  "ko": "변경분",
+  "en": "changes"
+ },
+ "diff_inc": {
+  "ko": "수정분",
+  "en": "since last review"
+ },
+ "no_changes": {
+  "ko": "변경 없음",
+  "en": "no changes"
+ },
+ "test_start": {
+  "ko": "▶ 검증 실행",
+  "en": "▶ running test"
+ },
+ "test_pass": {
+  "ko": "✓ 검증 통과 · {d}",
+  "en": "✓ test passed · {d}"
+ },
+ "test_fail": {
+  "ko": "✗ 검증 실패 (exit {code}) · {d}",
+  "en": "✗ test failed (exit {code}) · {d}"
+ },
+ "reviewer_changed_tree": {
+  "ko": "⚠ Reviewer가 Working Tree를 변경했습니다.",
+  "en": "⚠ the reviewer changed the working tree."
+ },
+ "pass_overridden": {
+  "ko": "⚠ 검증 실패: Reviewer의 PASS를 NEEDS_REVISION으로 바꿉니다.",
+  "en": "⚠ test failed: the reviewer's PASS becomes NEEDS_REVISION."
+ },
+ "no_issues": {
+  "ko": "지적 없음",
+  "en": "no issues"
+ },
+ "prior_resolved": {
+  "ko": "해결",
+  "en": "resolved"
+ },
+ "prior_unresolved": {
+  "ko": "미해결",
+  "en": "unresolved"
+ },
+ "prior_rejection_accepted": {
+  "ko": "반려 인정",
+  "en": "rejection accepted"
+ },
+ "attempts_fmt": {
+  "ko": "{n}건 · 상세 {file}",
+  "en": "{n} · details in {file}"
+ },
+ "weak_pass": {
+  "ko": "⚠ PASS인데 검증 시도가 {n}건뿐입니다. 증거가 부족한 PASS로 봅니다.",
+  "en": "⚠ PASS with only {n} check(s): treat it as a PASS without enough evidence."
+ },
+ "pass_continue_more": {
+  "ko": "→ PASS지만 라운드가 남아 계속합니다: Worker가 스스로 약점을 다시 찾습니다.",
+  "en": "→ PASS, but rounds remain: the worker looks for weak points again."
+ },
+ "pass_continue_last": {
+  "ko": "→ PASS지만 마지막 수정 단계로 갑니다: Worker가 스스로 약점을 다시 찾습니다.",
+  "en": "→ PASS, going on to the last revision: the worker looks for weak points again."
+ },
+ "commit": {
+  "ko": "커밋 {sha}",
+  "en": "commit {sha}"
+ },
+ "no_commit": {
+  "ko": "커밋할 변경 없음",
+  "en": "nothing to commit"
+ },
+ "commit_failed": {
+  "ko": "⚠ worktree 커밋 실패 ({error})",
+  "en": "⚠ worktree commit failed ({error})"
+ },
+ "uncommitted": {
+  "ko": "⚠ 커밋되지 않은 변경사항은 worktree에 포함되지 않습니다 (HEAD 기준).",
+  "en": "⚠ uncommitted changes are not in the worktree (it starts from HEAD)."
+ },
+ "session_inherit": {
+  "ko": "· {role} 세션을 이어받습니다 ({agent}, 이전 task {prev})",
+  "en": "· {role} keeps its session ({agent}, previous task {prev})"
+ },
+ "session_new": {
+  "ko": "· {role}는 새 세션으로 시작합니다 (이전 task와 역할/에이전트가 다르거나 세션 없음)",
+  "en": "· {role} starts a new session (different agent or role than the previous task, or no session)"
+ },
+ "worktree_recreated": {
+  "ko": "· 이전 worktree를 같은 경로에 다시 만들었습니다: {path}",
+  "en": "· recreated the previous worktree at the same path: {path}"
+ },
+ "synced": {
+  "ko": "· 현재 HEAD({head})를 {branch}에 병합했습니다 (--sync).",
+  "en": "· merged the current HEAD ({head}) into {branch} (--sync)."
+ },
+ "behind": {
+  "ko": "⚠ 현재 HEAD({head})의 커밋 일부가 {branch}에 없습니다. 반영하려면 --sync를 쓰세요.",
+  "en": "⚠ some commits of the current HEAD ({head}) are not in {branch}. Use --sync to bring them in."
+ },
+ "stop_limit": {
+  "ko": "⏸ 사용량 한도로 중단: {error}",
+  "en": "⏸ stopped at the usage limit: {error}"
+ },
+ "stop_error": {
+  "ko": "✗ ERROR: {error}",
+  "en": "✗ ERROR: {error}"
+ },
+ "took_wait": {
+  "ko": "{work} 작업 · 경과 {elapsed} (대기 포함)",
+  "en": "{work} working · {elapsed} elapsed (incl. waiting)"
+ },
+ "took_fmt": {
+  "ko": "{took} · 시작 {start}",
+  "en": "{took} · started {start}"
+ },
+ "agent_usage": {
+  "ko": "{turns}턴 · {d} · 토큰 {tok}",
+  "en": "{turns} turn(s) · {d} · {tok} tokens"
+ },
+ "cost_unknown": {
+  "ko": "비용 미상 {n}턴 (이어받은 세션)",
+  "en": "cost unknown for {n} turns (inherited session)"
+ },
+ "human": {
+  "ko": "✋ 사용자 판단 필요",
+  "en": "✋ your decision is needed"
+ },
+ "ph_decision": {
+  "ko": "<판단>",
+  "en": "<decision>"
+ },
+ "resume_limit_note": {
+  "ko": "  (한도가 풀린 뒤, 작업은 보존됨)",
+  "en": "  (after the limit resets; the work is kept)"
+ },
+ "test_final_failed": {
+  "ko": "✗ 최종 검증 실패: {log}",
+  "en": "✗ final test failed: {log}"
+ },
+ "cleanup": {
+  "ko": "· worktree 삭제: {workdir} (브랜치 {branch} 유지, 기록 {n}개는 {dest})",
+  "en": "· removed worktree {workdir} (branch {branch} kept, {n} record(s) moved to {dest})"
+ },
+ "fatal": {
+  "ko": "ERROR: {msg}",
+  "en": "ERROR: {msg}"
+ },
+ "crash": {
+  "ko": "예상치 못한 오류 (sparring 버그):",
+  "en": "unexpected error (sparring bug):"
+ },
+ "crash_state": {
+  "ko": "예상치 못한 오류 (sparring 버그)",
+  "en": "unexpected error (sparring bug)"
+ },
+ "limit_error": {
+  "ko": "{agent} 사용량 한도: {hit}",
+  "en": "{agent} usage limit: {hit}"
+ },
+ "warn_reviewer_changed": {
+  "ko": "Round {r}: Reviewer가 Working Tree를 변경함",
+  "en": "Round {r}: the reviewer changed the working tree"
+ },
+ "warn_pass_overridden": {
+  "ko": "Round {r}: Validation 실패로 Reviewer의 PASS를 NEEDS_REVISION으로 변경",
+  "en": "Round {r}: validation failed, the reviewer's PASS became NEEDS_REVISION"
+ },
+ "warn_weak_pass": {
+  "ko": "Round {r}: 검증 기록이 부족한 PASS",
+  "en": "Round {r}: PASS without enough recorded checks"
+ },
+ "val_title": {
+  "ko": "Validation 실패 (exit {code})",
+  "en": "Validation failed (exit {code})"
+ },
+ "val_detail": {
+  "ko": "Orchestrator가 실행한 `{cmd}`가 실패했습니다. 로그: `{log}`",
+  "en": "`{cmd}`, run by the orchestrator, failed. Log: `{log}`"
+ },
+ "val_summary": {
+  "ko": "[Validation 실패로 PASS 무효] {summary}",
+  "en": "[PASS void: validation failed] {summary}"
+ },
+ "ls_none": {
+  "ko": "sparring task가 없습니다.",
+  "en": "No sparring tasks."
+ },
+ "ls_repo": {
+  "ko": "{repo} 저장소의 task (전체: sparring ls -a)",
+  "en": "Tasks in {repo} (all: sparring ls -a)"
+ },
+ "ls_more": {
+  "ko": "  … {n}개 더 (sparring ls -a)",
+  "en": "  … {n} more (sparring ls -a)"
+ },
+ "ls_hint": {
+  "ko": "\n보기: sparring watch [번호 | 이름·작업 내용 일부] [--brief | --verbose] [--all] [--lang ko|en]",
+  "en": "\nView: sparring watch [number | part of the id, title or task] [--brief | --verbose] [--all] [--lang ko|en]"
+ },
+ "no_title": {
+  "ko": "(작업 내용 없음)",
+  "en": "(no task text)"
+ },
+ "watch_many": {
+  "ko": "실행 중인 task가 {n}개입니다. 가장 최근 것을 보여줍니다 (다른 것: sparring ls → sparring watch <번호>)",
+  "en": "{n} tasks are running. Showing the latest (others: sparring ls → sparring watch <number>)"
+ },
+ "watch_no_log": {
+  "ko": "이 task에는 기록된 로그가 없습니다.",
+  "en": "This task has no recorded log."
+ },
+ "watch_ended": {
+  "ko": "== 종료됨: {status}",
+  "en": "== finished: {status}"
+ },
+ "e_git_failed": {
+  "ko": "git {args} 실패: {err}",
+  "en": "git {args} failed: {err}"
+ },
+ "e_no_commits": {
+  "ko": "커밋이 아직 없습니다: 먼저 커밋하거나 --in-place를 쓰세요",
+  "en": "no commits yet: commit first, or use --in-place"
+ },
+ "e_prev_running": {
+  "ko": "{id}가 아직 실행 중입니다. 끝난 뒤 이어가세요.",
+  "en": "{id} is still running. Continue it after it ends."
+ },
+ "e_prev_branch": {
+  "ko": "이전 task의 브랜치 {branch}가 없습니다. 새 스파링으로 시작하세요.",
+  "en": "the previous task's branch {branch} is gone. Start a new sparring."
+ },
+ "e_sync_conflict": {
+  "ko": "--sync 병합 충돌: 직접 해결하거나 --sync 없이 이어가세요 ({err})",
+  "en": "--sync merge conflict: resolve it yourself, or continue without --sync ({err})"
+ },
+ "e_test_missing": {
+  "ko": "--test 명령을 찾을 수 없습니다: {names} (에이전트 환경의 PATH 기준). 설치하거나 명령을 바꾼 뒤 다시 실행하세요. 그대로 두면 매 라운드 exit 127로 실패합니다.",
+  "en": "--test command not found: {names} (on the agents' PATH). Install it or change the command, then run again; as it is, every round would fail with exit 127."
+ },
+ "e_task_not_found": {
+  "ko": "task를 찾을 수 없습니다: {path}",
+  "en": "task not found: {path}"
+ },
+ "e_no_worktree": {
+  "ko": "{id}에는 지울 worktree가 없습니다",
+  "en": "{id} has no worktree to remove"
+ },
+ "e_running_in_wt": {
+  "ko": "{id}가 이 worktree에서 실행 중입니다.",
+  "en": "{id} is running in this worktree."
+ },
+ "e_wt_dirty": {
+  "ko": "worktree에 커밋되지 않은 변경이 있습니다: {path}",
+  "en": "worktree has uncommitted changes: {path}"
+ },
+ "e_wt_remove": {
+  "ko": "git worktree remove 실패: {err}",
+  "en": "git worktree remove failed: {err}"
+ },
+ "e_finished": {
+  "ko": "이미 끝난 task입니다 ({status})",
+  "en": "task already finished ({status})"
+ },
+ "e_no_row": {
+  "ko": "{n}번 task가 없습니다 (sparring ls로 확인)",
+  "en": "there is no task {n} (see sparring ls)"
+ },
+ "e_no_match": {
+  "ko": "'{q}'에 해당하는 task가 없습니다 (sparring ls로 확인)",
+  "en": "no task matches '{q}' (see sparring ls)"
+ },
+ "e_rounds": {
+  "ko": "--rounds는 0 이상이어야 합니다",
+  "en": "--rounds must be >= 0"
+ },
+ "e_digits": {
+  "ko": "작업 내용이 '{t}'뿐입니다. task {t}번을 보려던 거라면: sparring watch {t}",
+  "en": "the task is just '{t}'. To view task {t}: sparring watch {t}"
+ },
+ "e_command_like": {
+  "ko": "'{t}'는 작업 내용이 아니라 명령으로 보입니다. 명령: sparring ls | sparring watch [번호] | sparring --resume/--cleanup <task-id>",
+  "en": "'{t}' looks like a command, not a task. Commands: sparring ls | sparring watch [number] | sparring --resume/--cleanup <task-id>"
+ },
+ "e_too_short": {
+  "ko": "작업 내용이 너무 짧습니다 ('{t}'). 무엇을 할지 문장으로 적어 주세요.",
+  "en": "the task is too short ('{t}'). Describe what to do in a sentence."
+ },
+ "e_not_repo": {
+  "ko": "{path}는 git 저장소가 아닙니다 (먼저 `git init`)",
+  "en": "{path} is not a git repository (run `git init` first)"
+ },
+ "e_no_cli": {
+  "ko": "`{cli}` CLI를 PATH에서 찾을 수 없습니다",
+  "en": "`{cli}` CLI not found on PATH"
+ },
+ "e_timeout": {
+  "ko": "{agent} {role} 제한 시간 {s}초 초과",
+  "en": "{agent} {role} timed out after {s}s"
+ },
+ "e_exited": {
+  "ko": "{agent} {role} 종료 코드 {code} ({path} 참고)",
+  "en": "{agent} {role} exited {code} (see {path})"
+ },
+ "e_parse": {
+  "ko": "{agent} {role}: 구조화된 출력을 읽지 못함 ({err}), {path} 참고",
+  "en": "{agent} {role}: structured output parse failed ({err}), see {path}"
+ },
+ "task_md": {
+  "ko": "# Task {id}\n\n- Worker: {worker}\n- Reviewer: {reviewer}\n- Rounds: {rounds}\n- Validation: {test}\n{prev}\n## 요청\n\n{task}\n",
+  "en": "# Task {id}\n\n- Worker: {worker}\n- Reviewer: {reviewer}\n- Rounds: {rounds}\n- Validation: {test}\n{prev}\n## Request\n\n{task}\n"
+ },
+ "task_md_none": {
+  "ko": "(없음)",
+  "en": "(none)"
+ },
+ "task_md_prev": {
+  "ko": "- 이어지는 Task: {id} (기록: {path})\n",
+  "en": "- Continues task: {id} (records: {path})\n"
+ },
+ "note_section": {
+  "ko": "사용자 판단",
+  "en": "User decision"
+ },
+ "task_md_note": {
+  "ko": "\n## {section} (Round {r})\n\n{note}\n",
+  "en": "\n## {section} (round {r})\n\n{note}\n"
+ },
+ "review_prior": {
+  "ko": "## 이전 지적 처리",
+  "en": "## Prior issues"
+ },
+ "review_attempts": {
+  "ko": "## 시도한 검증",
+  "en": "## Checks performed"
+ },
+ "review_question": {
+  "ko": "## 사용자 판단 요청",
+  "en": "## Question for the user"
+ },
+ "p_lang": {
+  "ko": "- 보고(JSON)의 모든 서술은 한국어로 쓰세요.\n",
+  "en": "- Write every text field of your report (JSON) in English.\n"
+ },
+ "p_worker_base": {
+  "ko": "당신은 Worker입니다. `{run}/TASK.md`의 Task를 이 Repository에서 수행하세요.\n- 결과물 형식은 Task에 맞게 직접 결정하세요 (코드 수정, Markdown 문서 등).\n  문서형 결과물은 Task에 경로 지정이 없으면 Repository 안에 적절한 이름의 .md 파일로 작성하세요.\n- `{agents}/` 디렉터리는 Orchestrator 전용입니다. 읽기만 하고 수정하지 마세요.\n- 가능한 범위에서 자체 검증하세요.\n",
+  "en": "You are the Worker. Carry out the task in `{run}/TASK.md` in this repository.\n- Choose the form of the result to fit the task (code changes, a Markdown document, ...).\n  If the task asks for a document and gives no path, write it as a suitably named .md file in the repository.\n- The `{agents}/` directory belongs to the orchestrator. Read it, never modify it.\n- Verify your work yourself as far as you can.\n"
+ },
+ "p_worker_continued": {
+  "ko": "- 이 Task는 이전 Task `{prev}`에 이어지는 작업입니다. 이전 맥락을 활용하되, 요구사항은 이번 TASK.md를 따르세요.\n",
+  "en": "- This task continues the previous task `{prev}`. Use that context, but the requirements are this TASK.md.\n"
+ },
+ "p_worker_concerns": {
+  "ko": "- 결과물에서 스스로 가장 틀렸을 가능성이 높은 지점(가정, 경계, 증명이 약한 곳)을 open_concerns에 구체적으로 적으세요. Reviewer가 이 지점을 먼저 공격합니다.\n",
+  "en": "- In open_concerns, name the specific places where your result is most likely wrong (assumptions, edge cases, weak arguments). The reviewer attacks these first.\n"
+ },
+ "p_worker_r0_end": {
+  "ko": "- 최종 응답은 스키마에 맞춰 반환하세요 (rejected_issues, missed_issues는 빈 배열).",
+  "en": "- Return the final answer in the schema (rejected_issues and missed_issues as empty arrays)."
+ },
+ "p_worker_note": {
+  "ko": "- `{run}/TASK.md`의 '{section}' 섹션을 최우선으로 반영하세요.\n",
+  "en": "- The '{section}' section of `{run}/TASK.md` takes priority over everything else.\n"
+ },
+ "p_worker_revise": {
+  "ko": "\n이번은 Round {r} 수정 단계입니다. `{run}/REVIEW-r{r}.md`를 비판적으로 검토하세요. 리뷰도 틀릴 수 있습니다.\n- 타당한 지적은 반영하세요. 틀리거나 과한 지적은 따르지 말고 rejected_issues에 반박 근거를 적으세요.\n- 리뷰가 놓친 문제를 스스로 찾으세요: 리뷰가 보지 않은 경로, 전제가 깨지는 경우, 이번 수정이 새로 만든 문제. 찾은 것은 missed_issues에 적고 반영하세요.\n- 리뷰가 PASS였거나 지적이 적어도 끝난 것으로 보지 말고, 결과물의 가장 약한 곳을 한 번 더 다듬으세요.\n",
+  "en": "\nThis is the round {r} revision. Read `{run}/REVIEW-r{r}.md` critically: the review can be wrong too.\n- Apply the valid points. Don't follow wrong or excessive ones; give your counter-argument in rejected_issues.\n- Find what the review missed: paths it didn't look at, cases where its premises break, problems this revision introduced. Record them in missed_issues and fix them.\n- Even after a PASS or a short review, don't treat the work as done: improve its weakest point once more.\n"
+ },
+ "p_worker_end": {
+  "ko": "- 최종 응답은 스키마에 맞춰 반환하세요.",
+  "en": "- Return the final answer in the schema."
+ },
+ "p_rev_test": {
+  "ko": "- Validation 결과: `{run}/r{r}-test.log` (Orchestrator가 직접 실행한 결과, exit code 포함)\n",
+  "en": "- Validation result: `{run}/r{r}-test.log` (run by the orchestrator itself, exit code included)\n"
+ },
+ "p_rev_prev": {
+  "ko": "- 이전 Review: `{run}/REVIEW-r{p}.md`\n- Worker 수정 보고 (rejected_issues에 반려한 지적과 근거): `{run}/logs/{log}.json`\n",
+  "en": "- Previous review: `{run}/REVIEW-r{p}.md`\n- Worker's revision report (rejected points and reasons in rejected_issues): `{run}/logs/{log}.json`\n"
+ },
+ "p_rev_inc": {
+  "ko": "- 이번 수정분(이전 Review 이후 변경): `{run}/r{r}-inc.diff`\n- 누적 변경분(Task 시작 이후, 필요할 때만 참고): `{run}/r{r}.diff`\n",
+  "en": "- This revision (changes since the previous review): `{run}/r{r}-inc.diff`\n- All changes since the task started (only when needed): `{run}/r{r}.diff`\n"
+ },
+ "p_rev_cum": {
+  "ko": "- 누적 변경분(Task 시작 이후): `{run}/r{r}.diff`\n",
+  "en": "- All changes since the task started: `{run}/r{r}.diff`\n"
+ },
+ "p_rev_prior": {
+  "ko": "\n먼저 이전 Review의 각 지적을 prior_issues에 판정하세요: resolved(해결됨) / unresolved(미해결) / rejection_accepted(Worker의 반려 근거가 타당함). 미해결 지적은 issues에도 다시 포함하세요. 그 다음 이번 수정분을 중심으로 새 문제를 검토하세요.\n",
+  "en": "\nFirst judge each issue of the previous review in prior_issues: resolved / unresolved / rejection_accepted (the worker's reason for rejecting it holds). Put unresolved issues in issues again. Then look for new problems, focusing on this revision.\n"
+ },
+ "p_rev_first_files": {
+  "ko": "- Worker 변경분(Git Diff): `{run}/r{r}.diff`\n- Worker 작업 보고: `{run}/logs/{log}.json`\n",
+  "en": "- Worker's changes (git diff): `{run}/r{r}.diff`\n- Worker's report: `{run}/logs/{log}.json`\n"
+ },
+ "p_rev_first": {
+  "ko": "\n첫 Review이므로 prior_issues는 빈 배열로 두세요.\n",
+  "en": "\nThis is the first review, so leave prior_issues as an empty array.\n"
+ },
+ "p_rev_anchor": {
+  "ko": "이전에 당신이 내린 판단도 틀렸을 수 있습니다. 기억에 의존하지 말고 현재 코드와 diff로 다시 확인하세요.\n",
+  "en": "Your own earlier judgments may be wrong too. Don't rely on memory; check again against the current code and diff.\n"
+ },
+ "p_rev_continued": {
+  "ko": "이 Task는 이전 Task `{prev}`에 이어집니다. 이전 Task의 결론을 전제로 삼지 말고 이번 TASK.md 기준으로 검토하세요.\n",
+  "en": "This task continues the previous task `{prev}`. Don't take its conclusions as given; review against this TASK.md.\n"
+ },
+ "p_rev_rebut": {
+  "ko": "Worker가 rejected_issues로 반박한 지적은 근거를 따져 재반박하거나 수용하세요. Worker가 missed_issues로 스스로 고친 부분도 검토 대상입니다.\n",
+  "en": "For points the worker rejected in rejected_issues, weigh the reasons and either rebut them or accept them. What the worker fixed on its own (missed_issues) is also under review.\n"
+ },
+ "p_rev_main": {
+  "ko": "당신은 Reviewer입니다. 목표는 통과 여부 판단이 아니라 결과물의 가장 약한 곳을 찾는 것입니다. 파일을 수정하지 마세요 (실험용 스크립트는 /tmp에만 두세요).\n- Task: `{run}/TASK.md`\n{files}{test}- Worker 보고의 open_concerns: Worker가 스스로 가장 불안하다고 밝힌 지점입니다. 먼저 공격하세요.\n- 필요하면 Repository의 다른 파일도 읽어서 확인하세요.\n{prior}\n검토 방법:\n1. 결과물의 핵심 주장, 결론 문장, 불변식을 뽑고 각각이 실제로 성립하는지 반례를 찾으세요.\n2. Task 범위 밖이라도 결과물이 기대는 전제(위협 모델, 입력 범위, 운영 상황, 권한, 되돌릴 수 없는 상태)가 깨지는 경우를 찾으세요.\n3. 요구사항 충족, 사실관계와 논리, 누락, 기존 시스템과의 충돌, 보안, 구현 가능성, 테스트 적절성, 과도한 가정도 확인하세요.\n4. 주장은 코드 실행, 검색, 계산, 문서 대조로 직접 확인하세요. 한 일과 결과를 attempts에 빠짐없이 적으세요. '확인했다'는 서술만으로는 검증으로 인정되지 않습니다.\n5. 이슈마다 재현 가능한 근거(파일:줄, 반례 입력, 공격 경로, 계산)를 detail에 적으세요.\n{lang}\n판정:\n- PASS: 위 방법을 실제로 수행했는데도 major 이상의 문제를 찾지 못함 (attempts에 수행 내역 필수)\n- NEEDS_REVISION: Worker가 수정해야 할 문제가 있음\n- HUMAN_REVIEW: 요구사항 해석이 갈리거나, 중요한 아키텍처 결정, Production 영향, 권한 확대, Critical 보안 위험 등 사용자 판단이 필요함 (human_question에 사용자에게 물을 내용을 작성)\nHUMAN_REVIEW가 아니면 human_question은 빈 문자열로 두세요.",
+  "en": "You are the Reviewer. Your goal is not to decide whether it passes, but to find the weakest point of the result. Don't modify files (keep experiment scripts in /tmp only).\n- Task: `{run}/TASK.md`\n{files}{test}- open_concerns in the worker's report: where the worker itself is least sure. Attack these first.\n- Read other files in the repository when you need to.\n{prior}\nHow to review:\n1. Pull out the result's key claims, conclusions and invariants, and look for a counterexample to each.\n2. Even outside the task's scope, find where the premises the result relies on break (threat model, input range, operating conditions, permissions, irreversible state).\n3. Also check requirements, facts and logic, omissions, conflicts with the existing system, security, feasibility, test adequacy and excessive assumptions.\n4. Verify claims yourself by running code, searching, calculating or comparing with documents. Record everything you did and what came out in attempts; saying you 'checked' does not count as a check.\n5. For each issue, give reproducible evidence in detail (file:line, counterexample input, attack path, calculation).\n{lang}\nVerdict:\n- PASS: you actually did the above and found nothing major or worse (attempts must show what you did)\n- NEEDS_REVISION: there are problems the worker must fix\n- HUMAN_REVIEW: the user has to decide (requirements can be read two ways, a major architecture decision, production impact, wider permissions, a critical security risk, ...); put the question for the user in human_question\nUnless the verdict is HUMAN_REVIEW, leave human_question as an empty string."
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "sparring-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex / Claude Code Worker-Reviewer cross-check loop",
+  "bin": {
+    "sparring": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc && cp ../shared/messages.json dist/messages.json && cp ../LICENSE LICENSE",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

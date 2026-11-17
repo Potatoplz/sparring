@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sparring"
+dynamic = ["version"]
+description = "Codex / Claude Code Worker-Reviewer cross-check loop"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+sparring = "sparring.cli:main"
+
+[tool.hatch.version]
+path = "src/sparring/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sparring"]
+
+# The messages both implementations share live in ../shared; ship a copy inside the package.
+[tool.hatch.build.targets.wheel.force-include]
+"../shared/messages.json" = "sparring/messages.json"
+"../LICENSE" = "sparring/LICENSE"
