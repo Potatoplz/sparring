@@ -4,6 +4,22 @@
 
 > **Notice (2026-11-17)** sparring is shared only by cloning this GitHub repository; there is no npm release. Follow [One-line install](#one-line-install) below.
 
+## TL;DR
+
+sparring is a Claude Code skill (plus CLI). Install it with the [One-line install](#one-line-install) for your environment (uv/Python or Node), then use it when you want work implemented or checked by a second agent. Just ask Claude Code in your own words:
+
+> “ㅇㅋ그 설계안 토대로 구현 스파링해줘. 니가 워커 하고 코덱스가 리뷰어로 해서 1라운드만해. 와리가리 귀찮으니까 워크트리로 하지말고 그냥 이 폴더에서 스파링해”
+>
+> *OK, implement it based on that design, with sparring. You work, Codex reviews, 1 round only. Skip the worktree, it's a hassle to switch back and forth — just spar in this folder.* → `--worker claude --reviewer codex --rounds 1 --in-place`
+
+> “방금 니가 작업한 문서 스파링해. 코덱스가 리뷰하게 해. 내용이 복잡하니까 2라운드 스파링떠”
+>
+> *Spar on the doc you just wrote. Have Codex review it. It's complex, so do 2 rounds.* → `--worker claude --reviewer codex --rounds 2`
+
+> “이것좀 구현해봐. 니가 리뷰어, 니가 워커로 스파링 1라운드해”
+>
+> *Implement this. You review, you work — 1 round of sparring.* → `--worker claude --reviewer claude --rounds 1`
+
 One agent does the work (Worker), another reviews it (Reviewer), and the Worker answers the review — all from a single CLI command.
 
 - Runs the `codex` and `claude` CLIs you are already logged in to. No separate API keys.

@@ -6,6 +6,22 @@
 
 > **공지 (2026-11-17)** npm 배포 없이 GitHub에서 clone 받아 설치하는 방식으로만 공유합니다. 아래 [한 줄 설치](#한-줄-설치)를 따라 하세요.
 
+## 요약
+
+sparring은 Claude Code 스킬(과 CLI)입니다. 환경에 맞게 Node나 Python(uv)으로 [한 줄 설치](#한-줄-설치)를 하고, 작업물을 검증하거나 구현할 때 쓰면 됩니다. Claude Code에 평소 말투로 이렇게 말하세요:
+
+> “ㅇㅋ그 설계안 토대로 구현 스파링해줘. 니가 워커 하고 코덱스가 리뷰어로 해서 1라운드만해. 와리가리 귀찮으니까 워크트리로 하지말고 그냥 이 폴더에서 스파링해”
+>
+> → `--worker claude --reviewer codex --rounds 1 --in-place`
+
+> “방금 니가 작업한 문서 스파링해. 코덱스가 리뷰하게 해. 내용이 복잡하니까 2라운드 스파링떠”
+>
+> → `--worker claude --reviewer codex --rounds 2`
+
+> “이것좀 구현해봐. 니가 리뷰어, 니가 워커로 스파링 1라운드해”
+>
+> → `--worker claude --reviewer claude --rounds 1`
+
 한 에이전트가 작업하고(Worker), 다른 에이전트가 검토하고(Reviewer), 다시 Worker가 반영하는 과정을 CLI 한 줄로 돌리는 도구입니다.
 
 - 로그인해 둔 `codex`, `claude` CLI를 그대로 실행합니다. API 키를 따로 쓰지 않습니다.

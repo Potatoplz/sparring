@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 2026-11-17
+
+- README (English and Korean): add a TL;DR / 요약 section at the top with real usage examples.
+- Skill: "이 폴더에서", "워크트리 말고" and "in this folder" now map to `--in-place`.
+
 ## 0.1.0 — 2026-11-17
 
 First public release. Shared by cloning the GitHub repository (no npm or PyPI release).

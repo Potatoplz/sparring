@@ -21,7 +21,7 @@ sparring [--worker codex|claude] [--reviewer codex|claude] [--rounds N] [--test 
 | "3번 주고받아", "3라운드"; "3 rounds" | `--rounds 3` (all 3 run) |
 | "리뷰 없이", "작업만"; "no review" | `--rounds 0` |
 | "테스트 돌려서 확인", "run the tests to check", a named test command | `--test "<cmd>"` (look up the project's real test command if not given, e.g. `scripts/agent-test.sh`, package.json, Makefile, foundry) |
-| "여기서 바로", "워크트리 없이"; "in place", "no worktree" | `--in-place` |
+| "여기서 바로", "이 폴더에서", "워크트리 없이/말고"; "in place", "in this folder", "no worktree" | `--in-place` |
 | "리뷰어 매번 새로", "새 눈으로 리뷰"; "fresh reviewer" | `--fresh-reviewer` (default: the reviewer keeps its session across rounds) |
 
 - Leave out anything the user did not ask for; the defaults are codex worker, the other agent as reviewer, 1 round.

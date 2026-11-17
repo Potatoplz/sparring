@@ -1,6 +1,6 @@
 {
   "name": "sparring",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Codex/Claude Worker→Reviewer 교차 검토 루프를 Claude Code에서 실행하는 스킬. sparring CLI가 필요합니다.",
   "license": "MIT",
   "author": {
